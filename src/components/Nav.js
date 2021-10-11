@@ -30,7 +30,7 @@ class Nav extends Component {
           </NavLink>
         </li>
          <li>
-          <NavLink to='/leadershipboard' activeClassName='active'>
+          <NavLink to='/leaderboard' activeClassName='active'>
             Leadership Board
           </NavLink>
         </li>
