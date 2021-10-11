@@ -13,6 +13,76 @@
   }
 }
 
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.nav li:first-child {
+  padding-left: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  text-decoration: none;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.avatar {
+  height: 200px; 
+  border-radius: 100px;
+  margin: 10px;
+}
+
+
+.question_left{
+  width: 30%;
+  border-right: 2px solid green;
+  padding-right: 30px;
+ 
+}
+
+.question_right{
+  width: 90%;
+  padding-left: 30px;
+  padding-top: 40px;
+ 
+}
+.question_body{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+.button_card{
+  width:30%;
+  margin: 20px;
+  font-size: 20px;
+}
+.result{
+  width: 100%;
+  padding:20px;
+  border: 1px solid  #282c34;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.menu_grid{
+  width: 50%; 
+  height: 50px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,6 +97,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {
